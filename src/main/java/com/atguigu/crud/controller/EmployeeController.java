@@ -185,7 +185,7 @@ public class EmployeeController {
 	 * @param pn
 	 * @return
 	 */
-//	@RequestMapping("/emps")
+	@RequestMapping("/emps")
 	@ResponseBody
 	public Msg getEmpsWithJson(
 			@RequestParam(value = "pn", defaultValue = "1") Integer pn) {
@@ -206,7 +206,7 @@ public class EmployeeController {
 	 * 
 	 * @return
 	 */
-	 @RequestMapping("/emps")
+//	 @RequestMapping("/emps")
 	public String getEmps(
 			@RequestParam(value = "pn", defaultValue = "1") Integer pn,
 			Model model) {
