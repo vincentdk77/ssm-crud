@@ -35,7 +35,7 @@ import com.github.pagehelper.PageInfo;
 public class EmployeeController {
 
 	@Autowired
-	EmployeeService employeeService;
+	EmployeeService employeeService	;
 	
 	
 	/**
